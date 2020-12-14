@@ -1,0 +1,33 @@
+.my-app{
+    .navbar{
+        background-color: $black;
+        z-index: 1;
+        .log-cut{
+            width: 140px;
+            height: 100px;
+        }
+    }
+
+    .navbar-collapse{
+        .navbar-nav{
+            li{
+                text-align: center;
+                margin: 15px 0 0 100px;;
+                font-size: 22px;
+                i,
+                a{
+                    color:$gold;
+                }
+            }
+        }
+        .main-title{
+            flex-basis: 50%;
+            text-align: center;
+            h2{
+                color: $gold;
+                font-size: 60px;
+                font-family: monospace;
+            }
+        }
+    }
+}
